@@ -1,0 +1,35 @@
+.calculator{
+    width: 300px;
+    height: fit-content;
+    border-radius: 10px;
+    background-color: black;
+    padding: 10px;
+}
+
+.display{
+  height: 60px;
+  font-size: 24px;
+  text-align: right;
+  padding: 5px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  overflow: auto; 
+}
+
+.buttons{
+    gap: 5px;
+}
+
+button{
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+button:hover{
+    background-color: aqua;
+}
